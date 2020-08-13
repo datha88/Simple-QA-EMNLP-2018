@@ -92,3 +92,5 @@ experiments/
 results/
 *.pkl
 .vscode
+
+SimpleQuestions_v2.tgz
