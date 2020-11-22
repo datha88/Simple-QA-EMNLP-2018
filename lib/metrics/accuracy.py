@@ -18,6 +18,7 @@ def get_accuracy(targets, outputs, ignore_index=None, print_=False):
         output = output.squeeze(dim=0)
 
         prediction = output.max(output.dim() - 1)[1].view(-1)
+        
         if torch_equals_ignore_index(target, prediction, ignore_index=ignore_index):
             n_correct += 1
     accuracy = float(n_correct) / len(targets)

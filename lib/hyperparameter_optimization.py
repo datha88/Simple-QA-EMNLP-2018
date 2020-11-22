@@ -267,7 +267,7 @@ from skopt.space import Real, Integer
 from lib.utils import config_logging
 config_logging()
 
-mock_dimensions = [Integer(1, 100, name='integer')]
+mock_dimensions = [Integer(1, 100, name='mockdimension')]
 
 
 def mock(resources, integer=0, checkpoint=None):

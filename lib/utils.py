@@ -63,7 +63,10 @@ def config_logging():
         format='[%(asctime)s][%(processName)s][%(name)s][%(levelname)s] %(message)s',
         level=logging.INFO,
         stream=sys.stdout)
-
+def logging_shutdown():
+    """ Configure the root logger with basic settings.
+    """
+    logging.shutdown()
 
 def get_root_path():
     """ Get the path to the root directory
