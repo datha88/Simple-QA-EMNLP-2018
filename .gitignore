@@ -84,6 +84,8 @@ data/**
 # Checkpoint files are large
 *.pt
 *.pkl
+notebooks/Simple QA End-To-End/step_2_generate_candidates.pkl
+notebooks/Simple QA End-To-End/step_1_predict_subject_name.pkl
 
 # Sensitive
 *.pass
